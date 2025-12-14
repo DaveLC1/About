@@ -1,0 +1,84 @@
+body {
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: slategray;
+}
+
+#title {
+    text-align: center;
+}
+
+.titleicon {
+    float:right;
+    height: 17%;
+    width: 17%;
+    border-radius: 50%;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+}
+
+.container {
+    gap: 5px;
+}
+
+#description {
+    color: aliceblue;
+    text-shadow: -3px 2px grey;
+}
+
+#title {
+    color: red;
+    position: relative;
+    left: 2%;
+}
+
+.list {
+    color: yellowgreen;
+    position: relative;
+    left: 8%;
+    text-shadow: -2px 1px green 3px;
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blueviolet;
+}
+
+.helps {
+    color: grey;
+}
+
+footer {
+    gap: 1%;
+    padding-left: 18px;
+    position: static;
+    botom: 13px;
+    color: azure;
+    text-align: center;
+}
+
+#whatsapp {
+    height: 17px;
+    position: relative;
+    top: 3px;
+    background-color: aliceblue;
+    border-radius: 50% 45% 47% 0;
+}
+
+#telegram {
+    height: 19px;
+    position: relative;
+    top: 3px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+#link {
+    color: aliceblue;
+}
