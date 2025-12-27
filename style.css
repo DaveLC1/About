@@ -92,3 +92,7 @@ footer a:hover {
 .cont {
   color: aliceblue;
     }
+
+.muted {
+  color: var(--muted);
+}
